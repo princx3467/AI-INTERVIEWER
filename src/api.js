@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://your-railway-url.up.railway.app/api";
 
 // Helper function
 const request = async (endpoint, method = "GET", body = null, token = null) => {
